@@ -7,11 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "LVTableViewCellProtocol.h"
-#import "LVTableViewCellBackDelegate.h"
+#import "LVCommonCellProtocol.h"
 
-@interface LVTableViewCell : UITableViewCell <LVTableViewCellProtocol>
-@property (nonatomic, copy) NSString *titleString;
+@protocol LVTableViewCellBackDelegate <LVCommonCallBackDelegate>
+
+@optional
+- (void)cellButtonClickBack:(NSIndexPath *)indexPath;
+@end
+
+@interface LVTableViewCell : UITableViewCell <LVCommonCellProtocol>
+/**也可以写个baseCell实现LVCommonCellProtocol协议*/
 
 @property (nonatomic, weak) id<LVTableViewCellBackDelegate> delegate;
 

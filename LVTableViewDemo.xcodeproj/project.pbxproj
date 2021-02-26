@@ -18,11 +18,10 @@
 		B2FE1D20206CD0EA00401243 /* LVTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FE1D1F206CD0EA00401243 /* LVTableViewController.m */; };
 		B2FE1D28206CD38100401243 /* LVConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FE1D27206CD38100401243 /* LVConfig.m */; };
 		B2FE1D2B206CD39400401243 /* LVCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FE1D2A206CD39400401243 /* LVCellModel.m */; };
-		B2FE1D2E206CD3B900401243 /* LVTableViewInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FE1D2D206CD3B900401243 /* LVTableViewInteractor.m */; };
-		B2FE1D31206CD3D100401243 /* LVTableViewRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FE1D30206CD3D100401243 /* LVTableViewRequester.m */; };
-		B2FE1D40206CE95100401243 /* PlainSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FE1D3E206CE95100401243 /* PlainSectionHeaderView.m */; };
 		B2FE1D44206CEE3D00401243 /* LVTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FE1D43206CEE3D00401243 /* LVTableViewCell.m */; };
 		B2FE1D47206CEF0D00401243 /* LVTypeSecondCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FE1D46206CEF0D00401243 /* LVTypeSecondCell.m */; };
+		B75F24BE24075FA200FEB153 /* LVBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B75F24BD24075FA200FEB153 /* LVBaseTableViewController.m */; };
+		B75F24C12407642F00FEB153 /* UIViewController+PresentationStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = B75F24BF2407642F00FEB153 /* UIViewController+PresentationStyle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,24 +64,16 @@
 		B2FE1D27206CD38100401243 /* LVConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LVConfig.m; sourceTree = "<group>"; };
 		B2FE1D29206CD39400401243 /* LVCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LVCellModel.h; sourceTree = "<group>"; };
 		B2FE1D2A206CD39400401243 /* LVCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LVCellModel.m; sourceTree = "<group>"; };
-		B2FE1D2C206CD3B900401243 /* LVTableViewInteractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LVTableViewInteractor.h; sourceTree = "<group>"; };
-		B2FE1D2D206CD3B900401243 /* LVTableViewInteractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LVTableViewInteractor.m; sourceTree = "<group>"; };
-		B2FE1D2F206CD3D100401243 /* LVTableViewRequester.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LVTableViewRequester.h; sourceTree = "<group>"; };
-		B2FE1D30206CD3D100401243 /* LVTableViewRequester.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LVTableViewRequester.m; sourceTree = "<group>"; };
-		B2FE1D32206CD4EA00401243 /* LVPresenterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LVPresenterProtocol.h; sourceTree = "<group>"; };
-		B2FE1D35206CD50E00401243 /* LVInteractorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LVInteractorProtocol.h; sourceTree = "<group>"; };
 		B2FE1D36206CD54100401243 /* LVCommonCellModelProtocl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LVCommonCellModelProtocl.h; sourceTree = "<group>"; };
 		B2FE1D37206CD56200401243 /* LVCommonCellProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LVCommonCellProtocol.h; sourceTree = "<group>"; };
-		B2FE1D39206CD61300401243 /* LVTableViewCellProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LVTableViewCellProtocol.h; sourceTree = "<group>"; };
-		B2FE1D3A206CD63700401243 /* LVTableViewCellBackDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LVTableViewCellBackDelegate.h; sourceTree = "<group>"; };
-		B2FE1D3B206CD82000401243 /* LVTableViewPresenterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LVTableViewPresenterProtocol.h; sourceTree = "<group>"; };
-		B2FE1D3C206CD83900401243 /* LVTableViewInteractorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LVTableViewInteractorProtocol.h; sourceTree = "<group>"; };
-		B2FE1D3E206CE95100401243 /* PlainSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlainSectionHeaderView.m; sourceTree = "<group>"; };
-		B2FE1D3F206CE95100401243 /* PlainSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlainSectionHeaderView.h; sourceTree = "<group>"; };
 		B2FE1D42206CEE3D00401243 /* LVTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LVTableViewCell.h; sourceTree = "<group>"; };
 		B2FE1D43206CEE3D00401243 /* LVTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LVTableViewCell.m; sourceTree = "<group>"; };
 		B2FE1D45206CEF0D00401243 /* LVTypeSecondCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LVTypeSecondCell.h; sourceTree = "<group>"; };
 		B2FE1D46206CEF0D00401243 /* LVTypeSecondCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LVTypeSecondCell.m; sourceTree = "<group>"; };
+		B75F24BC24075FA200FEB153 /* LVBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVBaseTableViewController.h; sourceTree = "<group>"; };
+		B75F24BD24075FA200FEB153 /* LVBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVBaseTableViewController.m; sourceTree = "<group>"; };
+		B75F24BF2407642F00FEB153 /* UIViewController+PresentationStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PresentationStyle.m"; sourceTree = "<group>"; };
+		B75F24C02407642F00FEB153 /* UIViewController+PresentationStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PresentationStyle.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,10 +126,12 @@
 			children = (
 				B2FE1CEB206CD07A00401243 /* AppDelegate.h */,
 				B2FE1CEC206CD07A00401243 /* AppDelegate.m */,
-				B2FE1D38206CD5BF00401243 /* BaseProtocl */,
+				B2FE1D38206CD5BF00401243 /* Base */,
 				B2FE1D1D206CD0C100401243 /* LVTableView */,
 				B2FE1CEE206CD07A00401243 /* ViewController.h */,
 				B2FE1CEF206CD07A00401243 /* ViewController.m */,
+				B75F24C02407642F00FEB153 /* UIViewController+PresentationStyle.h */,
+				B75F24BF2407642F00FEB153 /* UIViewController+PresentationStyle.m */,
 				B2FE1CF1206CD07A00401243 /* Main.storyboard */,
 				B2FE1CF4206CD07A00401243 /* Assets.xcassets */,
 				B2FE1CF6206CD07A00401243 /* LaunchScreen.storyboard */,
@@ -173,10 +166,6 @@
 				B2FE1D1F206CD0EA00401243 /* LVTableViewController.m */,
 				B2FE1D21206CD26800401243 /* Config */,
 				B2FE1D23206CD26E00401243 /* Model */,
-				B2FE1D25206CD26F00401243 /* Protocol */,
-				B2FE1D22206CD26800401243 /* Interactor */,
-				B2FE1D24206CD26F00401243 /* Requester */,
-				B2FE1D3D206CE94200401243 /* View */,
 				B2FE1D41206CEE0000401243 /* TableViewCell */,
 			);
 			path = LVTableView;
@@ -191,15 +180,6 @@
 			path = Config;
 			sourceTree = "<group>";
 		};
-		B2FE1D22206CD26800401243 /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-				B2FE1D2C206CD3B900401243 /* LVTableViewInteractor.h */,
-				B2FE1D2D206CD3B900401243 /* LVTableViewInteractor.m */,
-			);
-			path = Interactor;
-			sourceTree = "<group>";
-		};
 		B2FE1D23206CD26E00401243 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,44 +189,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		B2FE1D24206CD26F00401243 /* Requester */ = {
+		B2FE1D38206CD5BF00401243 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				B2FE1D2F206CD3D100401243 /* LVTableViewRequester.h */,
-				B2FE1D30206CD3D100401243 /* LVTableViewRequester.m */,
-			);
-			path = Requester;
-			sourceTree = "<group>";
-		};
-		B2FE1D25206CD26F00401243 /* Protocol */ = {
-			isa = PBXGroup;
-			children = (
-				B2FE1D39206CD61300401243 /* LVTableViewCellProtocol.h */,
-				B2FE1D3A206CD63700401243 /* LVTableViewCellBackDelegate.h */,
-				B2FE1D3B206CD82000401243 /* LVTableViewPresenterProtocol.h */,
-				B2FE1D3C206CD83900401243 /* LVTableViewInteractorProtocol.h */,
-			);
-			path = Protocol;
-			sourceTree = "<group>";
-		};
-		B2FE1D38206CD5BF00401243 /* BaseProtocl */ = {
-			isa = PBXGroup;
-			children = (
-				B2FE1D32206CD4EA00401243 /* LVPresenterProtocol.h */,
-				B2FE1D35206CD50E00401243 /* LVInteractorProtocol.h */,
+				B75F24BC24075FA200FEB153 /* LVBaseTableViewController.h */,
+				B75F24BD24075FA200FEB153 /* LVBaseTableViewController.m */,
 				B2FE1D36206CD54100401243 /* LVCommonCellModelProtocl.h */,
 				B2FE1D37206CD56200401243 /* LVCommonCellProtocol.h */,
 			);
-			path = BaseProtocl;
-			sourceTree = "<group>";
-		};
-		B2FE1D3D206CE94200401243 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				B2FE1D3F206CE95100401243 /* PlainSectionHeaderView.h */,
-				B2FE1D3E206CE95100401243 /* PlainSectionHeaderView.m */,
-			);
-			path = View;
+			path = Base;
 			sourceTree = "<group>";
 		};
 		B2FE1D41206CEE0000401243 /* TableViewCell */ = {
@@ -395,14 +346,13 @@
 			files = (
 				B2FE1CF0206CD07A00401243 /* ViewController.m in Sources */,
 				B2FE1D44206CEE3D00401243 /* LVTableViewCell.m in Sources */,
-				B2FE1D2E206CD3B900401243 /* LVTableViewInteractor.m in Sources */,
 				B2FE1CFB206CD07A00401243 /* main.m in Sources */,
 				B2FE1D28206CD38100401243 /* LVConfig.m in Sources */,
 				B2FE1D2B206CD39400401243 /* LVCellModel.m in Sources */,
+				B75F24BE24075FA200FEB153 /* LVBaseTableViewController.m in Sources */,
 				B2FE1D47206CEF0D00401243 /* LVTypeSecondCell.m in Sources */,
+				B75F24C12407642F00FEB153 /* UIViewController+PresentationStyle.m in Sources */,
 				B2FE1CED206CD07A00401243 /* AppDelegate.m in Sources */,
-				B2FE1D31206CD3D100401243 /* LVTableViewRequester.m in Sources */,
-				B2FE1D40206CE95100401243 /* PlainSectionHeaderView.m in Sources */,
 				B2FE1D20206CD0EA00401243 /* LVTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

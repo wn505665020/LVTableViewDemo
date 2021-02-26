@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "LVTableViewCellProtocol.h"
+#import "LVCommonCellProtocol.h"
 
-@interface LVTypeSecondCell : UITableViewCell <LVTableViewCellProtocol>
+@interface LVTypeSecondCell : UITableViewCell <LVCommonCellProtocol>
 @end
